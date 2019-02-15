@@ -1,3 +1,0 @@
-cython >= 0.21
-nose >= 1.0
-setuptools >= 0.8

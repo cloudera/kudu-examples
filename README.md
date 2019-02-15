@@ -1,19 +1,18 @@
 # Kudu examples
 
-This repository holds example code and tutorials for Kudu.
+This repository is deprecated. Its content has been merged into the
+[main Apache Kudu repository](https://github.com/apache/kudu/).
 
-## Setup Instructions with Cloudera Quickstart VM
+## Examples
 
-The easiest way to try Kudu is to use the Cloudera Quickstart VM that comes
-pre-packaged with Kudu and a special build of Impala integrating with Kudu. To
-download and setup the VM. Simply execute the following command:
+Sample code and tutorials can be found in the main Kudu repository's
+[examples subdirectory](https://github.com/apache/kudu/tree/master/examples).
 
-    curl -s https://raw.githubusercontent.com/cloudera/kudu-examples/master/demo-vm-setup/bootstrap.sh | bash
+## Demo environment
 
-Once the setup is complete, you can ssh into the machine using the username
-and password 'demo'.
+A Kudu environment suitable for demos can be created using the Docker scripts in
+the main Kudu repository's [docker
+subdirectory](https://github.com/apache/kudu/tree/master/docker).
 
-    ssh demo@quickstart.cloudera
-
-and you can access this directory containing the examples in the following
-location: `/media/sf_examples`.
+Alternatively, prebuilt Docker images can be pulled from the [Apache Kudu docker
+registry](https://hub.docker.com/r/apache/kudu).
